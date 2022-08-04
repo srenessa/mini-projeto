@@ -1,25 +1,81 @@
-/* @font-face {
+@font-face {
     font-family: "iDroid";
     src: url("./fontes/idroid.otf");
 }
 
 :root {
-    --cor0: #C5EBD6;
-    --cor1: #83E1AD;
-    --cor2: #3DDC84;
-    --cor3: #2FA866;
-    --cor4: #063D1E;
-    --font1: Arial, Helvetica, sans-serif;
-    --font2: 'iDroid', cursive;
-    --font3: 'Bebas Neue', cursive;;
+    --cor1: #C5EBD6;
+    --cor2: #83E1AD;
+    --cor3: #3DDC84;
+    --cor4: #2FA866;
+    --cor5: #063D1E;
+    --font_padrao: Arial, Helvetica, sans-serif;
+    --font_subtitulos: 'iDroid', cursive;
+    --font_titulo: 'Bebas Neue', cursive;
+    ;
 }
 
-* {}
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
-main {
+
+body {
+    background-color: var(--cor2);
+    font-family: var(--font_padrao);
+}
+
+#header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin: auto;
+    min-height: 100px;
+}
+header>h1{
+    font-size: 2.5em;
+    font-family: var(--font_titulo);
+    font-weight: normal;
+    margin-bottom: 12px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+}
+
+header>p{
+    font-family: var(--font_padrao);
+    font-size: 1.0rem;
+    color: rgb(228, 216, 216);
+    text-align: center;
     max-width: 400px;
-    min-width: 800px;
+    margin: auto;
+    margin-bottom: -100;
+    line-height: 1.3;
+    text-shadow: 2px 0px 0px #31303088;
 }
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    gap: 10px;
+    margin: -10px 1px 5px 25px;
+    font-family: var(--font1);
+    font-weight: 600;
+}
+    ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: var(--cor5);
+}
+
+
+
+/*
 
 ul,
 li {
@@ -38,14 +94,6 @@ li {
     margin: 20px 5px 5px 15px;
     font-family: var(--font1);
     font-weight: 600;
-
-}
-
-#header {
-    background-color: var(--cor3);
-    color: white;
-    width: 100%;
-    margin: -10px 0 0 -10px;
 
 }
 
