@@ -1,3 +1,8 @@
+/* @font-face {
+    font-family: "iDroid";
+    src: url("./fontes/idroid.otf");
+}
+
 :root {
     --cor0: #C5EBD6;
     --cor1: #83E1AD;
@@ -5,8 +10,8 @@
     --cor3: #2FA866;
     --cor4: #063D1E;
     --font1: Arial, Helvetica, sans-serif;
-    --font2: 'Bebas Neue', cursive;
-    --font3: 'Mochiy Pop One', sans-serif;
+    --font2: 'iDroid', cursive;
+    --font3: 'Bebas Neue', cursive;;
 }
 
 * {}
@@ -33,20 +38,19 @@ li {
     margin: 20px 5px 5px 15px;
     font-family: var(--font1);
     font-weight: 600;
-    
+
 }
 
 #header {
     background-color: var(--cor3);
     color: white;
     width: 100%;
-    margin-top: 20px;
-    right: 0;
-    
+    margin: -10px 0 0 -10px;
+
 }
 
 #titulo {
-    font-family: var(--font2);
+    font-family: var(--font3);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
     font-weight: 200;
     width: 300px;
@@ -56,7 +60,7 @@ li {
     margin-right: auto;
 }
 
-h3 {
+.paragrafo-header{
     font-family: var(--font1);
     font-weight: 30;
     font-size: 16px;
@@ -64,45 +68,68 @@ h3 {
     line-height: 2.0rem;
     word-wrap: break-word;
 }
-.subtitulo-um{
-    font-family: var(--font3);
+
+.subtitulo-um {
+    font-family: var(--font2);
     color: var(--cor4);
 }
-.subtitulos{
-    font-family: var(--font3);
+
+h2{
+    font-family: var(--font2);
     color: var(--cor4);
-    background-image: linear-gradient( 95deg, var(--cor1), rgb(168, 248, 168), rgb(201, 247, 201), rgb(236, 252, 236), white);
+    background-image: linear-gradient(95deg, rgb(197, 247, 204), rgb(217, 243, 217), rgb(212, 243, 212), rgb(236, 252, 236), white);
+    font-size: 20px;
 }
+
 html {
     background-color: var(--cor1)
 }
 
-.container {
+main {
     background-color: white;
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
-.box{
+article{
     margin: 0 auto;
     width: 95%;
     display: flex;
     justify-content: center;
 }
 
-p{
+p {
     text-indent: 25px;
     line-height: 1.5rem;
     word-spacing: 1.5px;
     font-family: var(--font1);
+    font-weight: medium;
+    font-weight: 450;
 }
 
 
-.div-img{
-    display:flex;
+.div-img {
+    display: flex;
     justify-content: center;
 }
 
-.video{
+
+#video{
     background-color: var(--cor4);
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    margin: auto;
+    width: 100%;
+    margin-left: -50px;
 }
+
+.links{
+text-decoration: none;
+}
+
+strong{
+    color: var(--cor3);
+} */
