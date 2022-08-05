@@ -66,8 +66,8 @@ header>p {
     font-weight: 600;
 }
 
-ul,
-li {
+.menu,
+.list {
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -119,7 +119,7 @@ main p {
     line-height: 1.5em;
 }
 
-strong {
+.strong {
     color: var(--cor3);
 }
 
@@ -187,10 +187,43 @@ aside>ul{
     list-style-type: '\2714\0020\0020';
     columns: 2;
     list-style-position: inside;
+    margin-bottom: 10px;
 }
 
 
 aside .link-aside{
-    background-color: var(--cor3);
     padding: 2px 6px;
+    font-weight: bold;
+    color: var(--cor6);
+    text-decoration: none;
 }
+
+.link-aside:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+}
+
+.strong-aside {
+    color: var(--cor6);
+}
+abbr{
+    cursor:grab;
+    border-bottom: none;
+}
+
+footer{
+    background-color: var(--cor6);
+    color: white;
+    padding: 6px;
+    text-align: center;
+}
+
+.link-linkedin{
+    text-decoration: none;
+    color: white;
+}
+.link-linkedin:hover{
+    color: var(--cor2);
+    text-decoration: underline;
+}
+
