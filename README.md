@@ -5,3 +5,5 @@ Projeto realizado durante o curso de HTML5 e CSS3 do ***@curso em video***. Aqui
 Segue abaixo o link do site desenvolvido.
 
 Para visulização o site [Clique aqui](https://projetositeandroid.netlify.app/)
+
+*Espero que tenham gostado.*
